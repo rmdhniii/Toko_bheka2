@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Transaksi</title>
+    <link rel="stylesheet" href="/assets/detail.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="/image/market.png" alt="Logo Toko">
+            </div>
+            <ul>
+                <li><a href="/desain/barang.html">Barang</a></li>
+                <li><a href="#">Pelanggan</a></li>
+                <li><a href="/desain/transaksi.html">Transaksi</a></li>
+                <li><a href="#">Riwayat</a></li>
+                <li><a href="#">Laporan</a></li>
+                <li><a href="/desain/detailTR.html">Detail Transaksi</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h1>Detail Transaksi</h1>
+            <form>
+                <div class="form-row">
+                    <label for="tanggal">Tanggal</label>
+                    <input type="date" id="tanggal" placeholder="Tanggal">
+                </div>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id Transaksi</th>
+                            <th>Tanggal</th>
+                            <th>Nama Pelanggan</th>
+                            <th>Id Pelanggan</th>
+                            <th>Id Barang</th>
+                            <th>Nama Barang</th>
+                            <th>Harga</th>
+                            <th>Stok</th>
+                            <th>Total Bayar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Isi tabel transaksi -->
+                    </tbody>
+                </table>
+
+                <div class="buttons">
+                    <button type="button" class="btn simpan">Simpan</button>
+                    <button type="button" class="btn tambah">Tambah</button>
+                    <button type="button" class="btn hapus">Hapus</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

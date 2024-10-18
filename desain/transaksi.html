@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi Penjualan</title>
+    <link rel="stylesheet" href="/assets/transaksi.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <img src="/image/market.png" alt="Toko Logo" class="logo">
+            <ul>
+                <li><a href="/desain/barang.html">Barang</a></li>
+                <li><a href="#">Pelanggan</a></li>
+                <li><a href="/desain/transaksi.html">Transaksi</a></li>
+                <li><a href="#">Riwayat</a></li>
+                <li><a href="#">Laporan</a></li>
+                <li><a href="/desain/detailTR.html">Detail Transaksi</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Transaksi Penjualan</h1>
+            <form>
+                <div class="form-row">
+                    <label for="id-transaksi">Id transaksi</label>
+                    <input type="text" id="id-transaksi" placeholder="Id transaksi">
+                    <label for="tanggal">Tanggal</label>
+                    <input type="date" id="tanggal">
+                </div>
+                <div class="form-row">
+                    <label for="nama-pelanggan">Nama Pelanggan</label>
+                    <input type="text" id="nama-pelanggan" placeholder="Nama Pelanggan">
+                </div>
+                <div class="form-row">
+                    <label for="id-pelanggan">Id Pelanggan</label>
+                    <input type="text" id="id-pelanggan" placeholder="Id Pelanggan">
+                </div>
+                <div class="form-row">
+                    <label for="id-barang">Id Barang</label>
+                    <input type="text" id="id-barang" placeholder="Id Barang">
+                    <input type="text" id="nama-barang" placeholder="Nama Barang">
+                    <input type="text" id="harga-barang" placeholder="Harga">
+                    <input type="text" id="stok-barang" placeholder="Stok">
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Id_barang</th>
+                            <th>Nama_barang</th>
+                            <th>Harga</th>
+                            <th>Jumlah</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                     
+                    </tbody>
+                </table>
+                <div class="buttons">
+                    <button type="button" class="btn tambah">Tambah</button>
+                    <button type="button" class="btn hapus">Hapus</button>
+                </div>
+                <div class="form-row">
+                    <label for="total-bayar">Total Bayar</label>
+                    <input type="text" id="total-bayar" placeholder="Total Bayar">
+                </div>
+                <div class="form-row">
+                    <label for="bayar">Bayar</label>
+                    <input type="text" id="bayar" placeholder="Bayar">
+                </div>
+                <div class="form-row">
+                    <label for="kembalian">Kembalian</label>
+                    <input type="text" id="kembalian" placeholder="Kembalian">
+                </div>
+                <button type="submit" class="btn simpan">Simpan</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
